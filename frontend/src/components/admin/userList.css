@@ -1,0 +1,46 @@
+.img-container {
+    width: 50px; /* Adjust the width as needed */
+  }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* userLists.css */
+
+.table-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* .form-group input{
+    margin-left: 50%;
+} */
+
+
+
+.btn-input {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    appearance: button;
+    width: 35%;
+  }
+  
+
+
+  

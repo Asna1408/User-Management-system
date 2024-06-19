@@ -1,0 +1,19 @@
+.profile-image-container {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 50%; /* This will make the image circular */
+    overflow: hidden; /* This ensures the image stays within the circular boundary */
+  }
+  
+.profile-image {
+width: 100%; /* Make sure the image covers the circular container */
+height: 100%; /* Make sure the image covers the circular container */
+object-fit: cover; /* This ensures the image covers the container without stretching */
+}
+
+.profile-container{
+    display:flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 30vh;
+}
